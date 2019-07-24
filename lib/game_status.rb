@@ -64,7 +64,7 @@ def iswinner(board, player)
       if playercounter == 3
         winfound = true 
         complete = true
-        winningcombo = combocounter
+        $winningcombo = combocounter
         break
       end
       combinationcounter += 1

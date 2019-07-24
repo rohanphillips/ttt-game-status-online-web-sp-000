@@ -22,7 +22,7 @@ def won?(board)
   if winner(board) != true 
     return false  
   else 
-    puts "winningcombo = " + winningcombo
+    puts "winningcombo = " + winningcombo.to_s
     return WIN_COMBINATIONS[winningcombo]
   end
   

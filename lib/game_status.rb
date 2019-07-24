@@ -19,14 +19,14 @@ $winningcombo = -1
 
 def won?(board)
   result = winner(board)
-  puts board
-  puts result
-  puts "winningcombo = " + $winningcombo.to_s
   if result == nil 
     return false  
   end
-  puts "will attempt to return array"
   return WIN_COMBINATIONS[$winningcombo]
+  
+end
+
+def draw?(board)
   
 end
 

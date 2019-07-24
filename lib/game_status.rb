@@ -17,7 +17,7 @@ WIN_COMBINATIONS = [
 PLAYERS = ["X", "O"]  
 winningcombo = -1 
 
-def won(board)
+def won?(board)
   winner(board)  
 end
 

@@ -25,7 +25,7 @@ def won?(board)
     return false  
   end
   puts "will attempt to return array"
-  return WIN_COMBINATIONS[$winningcombo]
+  #return WIN_COMBINATIONS[$winningcombo]
   
 end
 

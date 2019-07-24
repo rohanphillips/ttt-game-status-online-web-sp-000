@@ -67,7 +67,7 @@ end
 def full?(board)
   isfull = true 
   board.each do |location|
-    if location = " "
+    if location == " "
       isfull = false 
       break 
     end

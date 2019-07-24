@@ -19,6 +19,7 @@ $winningcombo = -1
 
 def won?(board)
   result = winner(board)
+  puts board
   puts result
   puts "winningcombo = " + $winningcombo.to_s
   if result == nil 

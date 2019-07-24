@@ -20,7 +20,10 @@ winningcombo = -1
 def won?(board)
   if winner(board) !== true then
     return false  
+  else if winningcombo = 0 then
+    return WIN_COMBINATIONS[winningcombo]
   end
+  
 end
 
 def winner(board)

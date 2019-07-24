@@ -22,10 +22,7 @@ def won?(board)
     return false  
   else 
     puts "winningcombo = " + winningcombo
-    if winningcombo == 0 
-      
-      return WIN_COMBINATIONS[winningcombo]
-    end
+    return WIN_COMBINATIONS[winningcombo]
   end
   
 end

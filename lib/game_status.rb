@@ -15,12 +15,12 @@ WIN_COMBINATIONS = [
   [2,4,6]
   ]
 PLAYERS = ["X", "O"]  
-winningcombo = -1 
+$winningcombo = -1 
 
 def won?(board)
   result = winner(board)
   puts result
-  puts "winningcombo = " + winningcombo.to_s
+  puts "winningcombo = " + $winningcombo.to_s
   if result != true 
     return false  
   else  

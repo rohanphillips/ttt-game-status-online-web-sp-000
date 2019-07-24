@@ -18,10 +18,11 @@ PLAYERS = ["X", "O"]
 winningcombo = -1 
 
 def won?(board)
-  puts "running won?, winner result is " + winner(board)
-  if winner(board) != true 
+  result = winner(board)
+  puts result
+  if result != true 
     return false  
-  else 
+  else  
     puts "winningcombo = " + winningcombo.to_s
     return WIN_COMBINATIONS[winningcombo]
   end

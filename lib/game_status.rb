@@ -18,6 +18,7 @@ PLAYERS = ["X", "O"]
 winningcombo = -1 
 
 def won?(board)
+  puts "running won?"
   if winner(board) != true 
     return false  
   else 

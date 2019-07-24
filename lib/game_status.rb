@@ -27,6 +27,13 @@ def won?(board)
 end
 
 def draw?(board)
+  result = winner(board)
+  fullboard = full?(board)
+  if result == nil && fullboard == true 
+    return true 
+  else
+      return false
+  end
   
 end
 

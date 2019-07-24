@@ -24,7 +24,7 @@ def won?(board)
   if result != true 
     return false  
   else  
-    return WIN_COMBINATIONS[winningcombo]
+    return WIN_COMBINATIONS[$winningcombo]
   end
   
 end

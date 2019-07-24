@@ -23,7 +23,8 @@ def won?(board)
   puts "winningcombo = " + $winningcombo.to_s
   if result != true 
     return false  
-  else  
+  elsif result == nil
+  else
     puts "will attempt to return array"
     return WIN_COMBINATIONS[$winningcombo]
   end

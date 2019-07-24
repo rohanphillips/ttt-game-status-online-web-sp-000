@@ -21,7 +21,7 @@ def won?(board)
   if winner(board) != true 
     return false  
   else 
-    puts "winningco"
+    puts "winningcombo = " + winningcombo
     if winningcombo == 0 
       
       return WIN_COMBINATIONS[winningcombo]

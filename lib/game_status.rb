@@ -37,6 +37,10 @@ def draw?(board)
   
 end
 
+def over?(board)
+  return draw?(board) == true || won?(board) != false || full?(board) == true 
+end
+
 def winner(board)
   winnerfound = false 
   PLAYERS.each do |i|

@@ -21,7 +21,7 @@ def won?(board)
   result = winner(board)
   puts result
   puts "winningcombo = " + $winningcombo.to_s
-  if result != true 
+  if result == nil 
     return false  
   end
   puts "will attempt to return array"

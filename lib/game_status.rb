@@ -17,6 +17,10 @@ WIN_COMBINATIONS = [
 PLAYERS = ["X", "O"]  
 winningcombo = -1 
 
+def won(board)
+  winner(board)  
+end
+
 def winner(board)
   winnerfound = false 
   PLAYERS.each do |i|

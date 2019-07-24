@@ -20,10 +20,10 @@ winningcombo = -1
 def won?(board)
   result = winner(board)
   puts result
+  puts "winningcombo = " + winningcombo.to_s
   if result != true 
     return false  
   else  
-    puts "winningcombo = " + winningcombo.to_s
     return WIN_COMBINATIONS[winningcombo]
   end
   

@@ -23,10 +23,9 @@ def won?(board)
   puts "winningcombo = " + $winningcombo.to_s
   if result != true 
     return false  
-  else
-    puts "will attempt to return array"
-    #return WIN_COMBINATIONS[$winningcombo]
   end
+  puts "will attempt to return array"
+  return WIN_COMBINATIONS[$winningcombo]
   
 end
 
